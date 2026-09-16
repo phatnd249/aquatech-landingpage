@@ -1,0 +1,54 @@
+:root {
+  /* Color Palette - Clean Tech Light Theme (As per Design Reference) */
+  --bg-primary: #f8fbff;
+  --bg-secondary: #f0f7ff;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --bg-hero-container: #e8f4fe;
+  --bg-badge: #e3f2fd;
+
+  /* Primary Vibrant Blue Accents matching Slides */
+  --accent-blue: #0b63e5;
+  --accent-blue-dark: #0052cc;
+  --accent-blue-bright: #0066ff;
+  --accent-sky: #38bdf8;
+  --accent-cyan: #0284c7;
+
+  /* Text Colors */
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-blue: #0b63e5;
+
+  /* Borders & Dividers */
+  --border-subtle: #e2e8f0;
+  --border-blue: rgba(11, 99, 229, 0.18);
+  --border-active: #0b63e5;
+
+  /* Shadows - Crisp Clean Light Elevation */
+  --shadow-card: 0 10px 30px -4px rgba(11, 99, 229, 0.08), 0 2px 8px -2px rgba(0, 0, 0, 0.03);
+  --shadow-card-hover: 0 18px 40px -6px rgba(11, 99, 229, 0.16);
+  --shadow-button: 0 6px 20px rgba(11, 99, 229, 0.28);
+  --shadow-glow: 0 0 25px rgba(56, 189, 248, 0.2);
+
+  /* Typography - Vietnamese Slide Presentation Match */
+  --font-heading: 'Plus Jakarta Sans', 'Montserrat', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Be Vietnam Pro', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Border Radii */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+
+  /* Layout */
+  --max-width: 1260px;
+  --navbar-height: 76px;
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
