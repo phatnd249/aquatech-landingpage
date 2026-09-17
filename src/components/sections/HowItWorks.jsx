@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Container from '../layout/Container';
 import Modal from '../ui/Modal';
 import { howItWorksData } from '../../data/howItWorks';
-import step1Img from '../../assets/images/step1-upload.png';
-import step2Img from '../../assets/images/step2-analysis.png';
-import step3Img from '../../assets/images/step3-summary.png';
-import step4Img from '../../assets/images/step4-history.png';
+import step1Img from '../../assets/images/step1-upload.webp';
+import step2Img from '../../assets/images/step2-analysis.webp';
+import step3Img from '../../assets/images/step3-summary.webp';
+import step4Img from '../../assets/images/step4-history.webp';
 import { Play } from 'lucide-react';
 
 export default function HowItWorks() {
