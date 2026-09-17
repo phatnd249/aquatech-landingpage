@@ -80,6 +80,29 @@ npm run preview
 
 ---
 
+## 🚀 Deploy lên Vercel
+
+### Cách 1: Qua GitHub (tự động redeploy)
+
+1. Đẩy code lên GitHub: `git push origin main`
+2. Vào [vercel.com](https://vercel.com) → **Add New Project** → Import repo `aquatech-landingpage`
+3. Giữ nguyên cấu hình mặc định (Framework: Vite, Build: `npm run build`, Output: `dist`) → **Deploy**
+4. Mỗi lần push code mới, Vercel tự build và deploy lại
+
+### Cách 2: Bằng CLI (deploy thủ công)
+
+```bash
+npm i -g vercel       # cài Vercel CLI (lần đầu)
+vercel login          # đăng nhập (lần đầu)
+npm run deploy        # deploy production
+```
+
+Sau khi deploy, Vercel trả về URL, ví dụ: `https://aquatech-landingpage.vercel.app`.
+
+> Mẹo: `npm run deploy` lệnh này chạy `vercel --prod`. Nếu chưa login hoặc chưa link project, làm theo hướng dẫn của CLI trong lần đầu.
+
+---
+
 ## 📁 Cấu trúc dự án
 
 ```
