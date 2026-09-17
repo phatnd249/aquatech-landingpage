@@ -19,9 +19,8 @@ export default function Footer() {
         <Container>
           {/* Centered Logos: VietFuture & Lac Hong University - Optimized size to prevent blurriness */}
           <div
+            className="brand-logos"
             style={{
-              display: 'flex',
-              alignItems: 'center',
               justifyContent: 'center',
               gap: '24px',
               flexWrap: 'wrap',
@@ -31,31 +30,20 @@ export default function Footer() {
             <img
               src={vietfutureLogo}
               alt="VietFuture 2026 Logo"
-              style={{
-                height: '46px',
-                width: 'auto',
-                maxHeight: '48px',
-                objectFit: 'contain',
-                imageRendering: 'auto',
-              }}
+              className="brand-logo brand-logo--footer"
             />
             <div
               style={{
                 width: '1px',
-                height: '32px',
+                height: '36px',
                 backgroundColor: 'rgba(148, 163, 184, 0.5)',
+                flexShrink: 0,
               }}
             />
             <img
               src={lachongLogo}
               alt="Lạc Hồng University Logo"
-              style={{
-                height: '42px',
-                width: 'auto',
-                maxHeight: '44px',
-                objectFit: 'contain',
-                imageRendering: 'auto',
-              }}
+              className="brand-logo brand-logo--lh brand-logo--footer"
             />
           </div>
 

@@ -45,41 +45,28 @@ export default function Navbar() {
         {/* Logos on Left - Sharp at native resolution without pixelation */}
         <a
           href="#hero"
+          className="brand-logos"
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '16px',
             textDecoration: 'none',
           }}
         >
           <img
             src={vietfutureLogo}
             alt="VietFuture 2026 Logo"
-            style={{
-              height: '38px',
-              width: 'auto',
-              maxHeight: '38px',
-              objectFit: 'contain',
-              imageRendering: 'auto',
-            }}
+            className="brand-logo"
           />
           <div
             style={{
               width: '1px',
-              height: '26px',
+              height: '28px',
               backgroundColor: '#cbd5e1',
+              flexShrink: 0,
             }}
           />
           <img
             src={lachongLogo}
             alt="Lạc Hồng University Logo"
-            style={{
-              height: '35px',
-              width: 'auto',
-              maxHeight: '35px',
-              objectFit: 'contain',
-              imageRendering: 'auto',
-            }}
+            className="brand-logo brand-logo--lh"
           />
         </a>
 

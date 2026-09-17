@@ -67,6 +67,53 @@ img {
   max-width: 100%;
 }
 
+/* Partner logos (transparent PNG) — sit directly on page background */
+.brand-logos {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand-logo {
+  display: block;
+  height: 46px;
+  width: auto;
+  max-height: 46px;
+  object-fit: contain;
+  background: transparent;
+}
+
+.brand-logo--lh {
+  height: 40px;
+  max-height: 40px;
+}
+
+.brand-logo--footer {
+  height: 58px;
+  max-height: 58px;
+}
+
+.brand-logo--footer.brand-logo--lh {
+  height: 52px;
+  max-height: 52px;
+}
+
+@media (max-width: 640px) {
+  .brand-logos {
+    gap: 8px;
+  }
+
+  .brand-logo {
+    height: 32px;
+    max-height: 32px;
+  }
+
+  .brand-logo--lh {
+    height: 28px;
+    max-height: 28px;
+  }
+}
+
 /* Specific Chamfered / Beveled Title Badge from Design */
 .chamfered-badge {
   display: inline-block;

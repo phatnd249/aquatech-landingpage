@@ -46,7 +46,7 @@
 
   /* Layout */
   --max-width: 1260px;
-  --navbar-height: 76px;
+  --navbar-height: 80px;
 
   /* Transitions */
   --transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
