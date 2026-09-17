@@ -97,7 +97,7 @@ export default function HowItWorks() {
                 alignItems: 'center',
                 textAlign: 'center',
                 position: 'relative',
-                minHeight: '430px',
+                minHeight: '490px',
                 justifyContent: 'space-between',
                 transition: 'all var(--transition-fast)',
               }}
@@ -134,7 +134,7 @@ export default function HowItWorks() {
               <div
                 style={{
                   width: '100%',
-                  height: '190px',
+                  height: '250px',
                   borderRadius: '16px',
                   overflow: 'hidden',
                   backgroundColor: '#ffffff',
