@@ -99,7 +99,7 @@ export default function KeyFeatures() {
           <h2
             className="section-title-large"
             style={{
-              fontSize: 'clamp(36px, 5vw, 60px)',
+              fontSize: 'clamp(28px, 5vw, 60px)',
               letterSpacing: '-0.02em',
               margin: 0,
             }}
@@ -112,7 +112,7 @@ export default function KeyFeatures() {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
             alignItems: 'center',
             gap: '60px',
           }}
@@ -142,6 +142,7 @@ export default function KeyFeatures() {
             {tiers.map((tier, idx) => (
               <div
                 key={tier.id}
+                className="tier-row"
                 style={{
                   display: 'grid',
                   gridTemplateColumns: '76px 150px 1fr',
@@ -183,6 +184,7 @@ export default function KeyFeatures() {
                       flexDirection: 'column',
                       gap: '6px',
                     }}
+                    className="tier-bullets"
                   >
                     {tier.bullets.map((bullet, bIdx) => (
                       <li

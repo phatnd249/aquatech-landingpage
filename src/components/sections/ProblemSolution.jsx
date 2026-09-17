@@ -128,7 +128,7 @@ export default function ProblemSolution() {
               <h2
                 style={{
                   fontFamily: 'var(--font-heading)',
-                  fontSize: 'clamp(34px, 4.2vw, 52px)',
+                  fontSize: 'clamp(28px, 4.2vw, 52px)',
                   fontWeight: '900',
                   lineHeight: '1.05',
                   color: '#000000',
@@ -149,6 +149,7 @@ export default function ProblemSolution() {
                 gridTemplateRows: 'repeat(2, 210px)',
                 gap: '20px',
               }}
+              className="problem-cards-grid"
             >
               {problems.map((prob) => (
                 <div
@@ -256,7 +257,7 @@ export default function ProblemSolution() {
                 <h2
                   className="section-title-large"
                   style={{
-                    fontSize: 'clamp(32px, 4vw, 50px)',
+                    fontSize: 'clamp(28px, 4vw, 50px)',
                     letterSpacing: '-0.02em',
                     margin: 0,
                   }}
@@ -286,6 +287,7 @@ export default function ProblemSolution() {
                 gridTemplateRows: 'repeat(2, 210px)',
                 gap: '20px',
               }}
+              className="solution-cards-grid"
             >
               {solutions.map((sol) => (
                 <div

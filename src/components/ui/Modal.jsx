@@ -107,8 +107,8 @@ export default function Modal({ isOpen, onClose, title, children }) {
 
         {/* Content Body */}
         <div
-          style={{
-            padding: '24px',
+style={{
+            padding: 'clamp(16px, 4vw, 24px)',
             overflowY: 'auto',
             maxHeight: 'calc(90vh - 80px)',
           }}

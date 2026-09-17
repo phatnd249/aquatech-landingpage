@@ -64,7 +64,7 @@ export default function HowItWorks() {
           <h2
             className="section-title-large"
             style={{
-              fontSize: 'clamp(36px, 5vw, 60px)',
+              fontSize: 'clamp(28px, 5vw, 60px)',
               letterSpacing: '-0.02em',
               margin: 0,
             }}

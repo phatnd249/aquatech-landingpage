@@ -62,7 +62,7 @@ export default function IntroSection() {
             <h2
               className="section-title-large"
               style={{
-                fontSize: 'clamp(38px, 5vw, 64px)',
+                fontSize: 'clamp(30px, 5vw, 64px)',
                 letterSpacing: '-0.02em',
                 margin: 0,
                 textAlign: 'center',
@@ -77,7 +77,7 @@ export default function IntroSection() {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(380px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
             alignItems: 'center',
             gap: '54px',
           }}
