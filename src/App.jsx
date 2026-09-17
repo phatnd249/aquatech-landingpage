@@ -5,7 +5,6 @@ import IntroSection from './components/sections/IntroSection';
 import ProblemSolution from './components/sections/ProblemSolution';
 import HowItWorks from './components/sections/HowItWorks';
 import KeyFeatures from './components/sections/KeyFeatures';
-import TeamSection from './components/sections/TeamSection';
 import Footer from './components/sections/Footer';
 
 export default function App() {
@@ -30,9 +29,6 @@ export default function App() {
 
         {/* Slide 5: TÍNH NĂNG */}
         <KeyFeatures />
-
-        {/* Section: ĐỘI NGŨ */}
-        <TeamSection />
       </main>
 
       {/* 3. Footer */}

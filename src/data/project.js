@@ -11,7 +11,6 @@ export const projectData = {
     { label: "Giải Pháp", href: "#giai-phap", isPill: true },
     { label: "Cách hoạt động", href: "#cach-hoat-dong" },
     { label: "Tính năng", href: "#tinh-nang" },
-    { label: "Đội Ngũ", href: "#doi-ngu" },
     { label: "Liên Hệ", href: "#lien-he" },
   ],
 };
